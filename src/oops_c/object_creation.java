@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package oops_c;
+
 class  company{
     String COMPANYNAME;
     int Total_Employee;
@@ -20,6 +21,14 @@ void compprint(){
 }
 }
 public class object_creation {
+    class  zen{
+        String name;
+        int statecode;
+        int zencode;
+        void p(){
+            System.out.println("the name of the ");
+        }
+    }
 
     public static void main (String args[])
     {

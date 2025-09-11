@@ -1,4 +1,6 @@
- class student{
+package oops_c;
+
+class student{
     int rollnum;
     String name;
     int cls;
@@ -6,11 +8,11 @@
     String stutype;
 
      void stu(){
-         System.out.println("details of the student is: " );
-         System.out.println("Name of the student is : " +name);
-         System.out.println("Roll number of the student is : " + rollnum);
-         System.out.println("Class name of the student is : " +cls);
-         System.out.println("Section of the student studied is  : " +section);
+         System.out.println("details of the oops_c.student is: " );
+         System.out.println("Name of the oops_c.student is : " +name);
+         System.out.println("Roll number of the oops_c.student is : " + rollnum);
+         System.out.println("Class name of the oops_c.student is : " +cls);
+         System.out.println("Section of the oops_c.student studied is  : " +section);
          System.out.println("Students study type eg:[good, poor, excelent] : " +stutype);
 
      }
