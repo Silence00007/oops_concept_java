@@ -21,12 +21,14 @@ void compprint(){
 }
 }
 public class object_creation {
-    class  zen{
+   static class  zen{
         String name;
         int statecode;
         int zencode;
         void p(){
-            System.out.println("the name of the ");
+            System.out.println("---------------------------------------------------------------------------------------------");
+            System.out.println("the name of the zen user is " +name+ " its state name is " +statecode+
+                    " and zencode is " +zencode);
         }
     }
 
@@ -41,6 +43,13 @@ public class object_creation {
         com.Regards= "RAM RAM JI";
         com.Greetings();
         com.compprint();
+
+        zen yes= new zen();
+        yes.name="alzeeta";
+        yes.statecode= 789;
+        yes.zencode=45;
+        yes.p();
+
 
 
     }
